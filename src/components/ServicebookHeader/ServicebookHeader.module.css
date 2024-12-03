@@ -1,0 +1,12 @@
+.servicebookHeader{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.section{
+    margin: 5px auto;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    justify-content: center;
+}

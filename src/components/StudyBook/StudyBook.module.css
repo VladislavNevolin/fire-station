@@ -1,0 +1,45 @@
+.result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.resultImg{
+    width: 85vw
+}
+
+.subjects {
+    display: grid;
+
+    grid-template-areas:
+        "A B"
+        "C D";
+    margin-top: 5vh;
+    justify-content: center;
+}
+
+.subjectsContainer {
+    display: flex;
+    flex-direction: column;
+
+    grid-area: C;
+    text-align: center;
+}
+
+.title {
+    grid-area: A;
+    text-align: center;
+}
+
+.theory {
+    grid-area: B;
+}
+
+.tests {
+    grid-area: D;
+    display: grid;
+    justify-content: stretch;
+
+}

@@ -1,0 +1,16 @@
+.servicebookComposition{
+    margin-top: 10px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: stretch;
+    gap: 5px;
+}
+
+.label{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    justify-items: stretch;
+    gap: 5px
+}

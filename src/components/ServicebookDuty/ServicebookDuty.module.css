@@ -1,0 +1,144 @@
+.section {
+    margin-top: 10px;
+    display: grid;
+    grid-template-areas:
+        "H1 H2 H3 H3 H3 H3"
+        "L1 b1 B B B B"
+        "L1 b2 B B B B"
+        "L1 b3 B B B B"
+        "L2 b4 B B B B"
+        "L2 b5 B B B B"
+        "L2 b6 B B B B"
+        "L3 b7 B B B B"
+        "L3 b8 B B B B"
+        "L3 b9 B B B B"
+        "L4 b10 B B B B";
+    /* grid-template-columns: 1fr 1fr 3fr; */
+    gap: 5px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 10px;
+    padding: 10px;
+    /* justify-items: center; */
+}
+
+.type {
+    grid-area: H1;
+}
+
+.name {
+    grid-area: H2;
+}
+
+.time {
+    grid-area: H3;
+}
+
+.post1 {
+    grid-area: L1;
+}
+
+.post2 {
+    grid-area: L2;
+}
+
+.post3 {
+    grid-area: L3;
+}
+
+.post4 {
+    grid-area: L4;
+}
+
+.bodyPoint1 {
+    grid-area: b1;
+}
+
+.bodyPoint2 {
+    grid-area: b2;
+}
+
+.bodyPoint3 {
+    grid-area: b3;
+}
+
+.bodyPoint4 {
+    grid-area: b4;
+}
+
+.bodyPoint5 {
+    grid-area: b5;
+}
+
+.bodyPoint6 {
+    grid-area: b6;
+}
+
+.bodyPoint7 {
+    grid-area: b7;
+}
+
+.bodyPoint8 {
+    grid-area: b8;
+}
+
+.bodyPoint9 {
+    grid-area: b9;
+}
+
+.bodyPoint10 {
+    grid-area: b10;
+}
+
+/* .sbHeader_text{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+} */
+
+
+/* .stage{
+    font-size: 15px;
+} */
+
+/* .stageMain{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+} */
+
+/* .dataSave{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+
+} */
+
+/* .inputDiv{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 1106px;
+    gap: 5px
+} */
+
+/* .inputLabel{
+    display: grid;
+    grid-template-columns: 235px auto;
+    justify-items: stretch;
+    height:29px;
+} */
+
+/* .main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+
+} */

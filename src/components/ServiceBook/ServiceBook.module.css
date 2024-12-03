@@ -1,0 +1,244 @@
+h3{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+input{
+    max-height: 25px;
+}
+
+select{
+    min-width: 135px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    text-align-last:center
+}
+
+p{
+    padding: 0;
+}
+
+.dataSave{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+
+}
+
+.inputDiv{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 1106px;
+    gap: 5px
+}
+
+.inputLabel{
+    display: grid;
+    grid-template-columns: 235px auto;
+    justify-items: stretch;
+    height:29px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+
+}
+
+.section{
+    margin-top: 10px;
+    display: grid;
+    grid-template-areas: 
+    "H H H H"
+    "L B B B"
+    "L B B B"
+    "L B B B"
+    "L B B B"
+    "L B B B"
+    "L B B B"
+    "L B B B"
+    "L B B B";
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.stage{
+    font-size: 15px;
+}
+
+.stageMain{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+
+
+.sbHeader{
+    grid-area: H;
+
+    width: 100%;
+    min-height: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.sbHeader_text{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.sbLeft{
+    grid-area: L;
+
+    display: grid;
+    
+    /* width: 100%; */
+    min-height: 10px;
+
+}
+
+.sbBody{
+    
+    grid-area: B;
+
+
+    min-height: 10px;
+    display: grid;
+    grid-template-areas: 
+    "b1 b2 b3"
+    "b4 b5 b6"
+    "b7 b8 b9"
+    "b10 b11 b12"
+    "b13 b14 b15"
+    "b16 b17 b18"
+    "b19 b20 b21"
+    "b22 b23 b24";
+    gap: 5px;
+    justify-items: center;
+}
+
+.bodyPoint1{
+    grid-area: b1;
+}
+
+.bodyPoint2{
+    grid-area: b2;
+}
+
+.bodyPoint3{
+    grid-area: b3;
+}
+
+.bodyPoint4{
+    grid-area: b4;
+}
+
+.bodyPoint5{
+    grid-area: b5;
+}
+
+.bodyPoint6{
+    grid-area: b6;
+}
+
+.bodyPoint7{
+    grid-area: b7;
+}
+
+.bodyPoint8{
+    grid-area: b8;
+}
+
+.bodyPoint9{
+    grid-area: b9;
+}
+
+.bodyPoint10{
+    grid-area: b10;
+}
+
+.bodyPoint11{
+    grid-area: b11;
+}
+
+.bodyPoint12{
+    grid-area: b12;
+}
+
+.bodyPoint13{
+    grid-area: b13;
+}
+
+.bodyPoint14{
+    grid-area: b14;
+}
+
+.bodyPoint15{
+    grid-area: b15;
+}
+
+.bodyPoint16{
+    grid-area: b16;
+}
+
+.bodyPoint17{
+    grid-area: b17;
+}
+
+.bodyPoint18{
+    grid-area: b18;
+}
+
+.bodyPoint19{
+    grid-area: b19;
+}
+
+.bodyPoint20{
+    grid-area: b20;
+}
+
+.bodyPoint21{
+    grid-area: b21;
+}
+
+.bodyPoint22{
+    grid-area: b22;
+}
+
+.bodyPoint23{
+    grid-area: b23;
+}
+
+.bodyPoint24{
+    grid-area: b24;
+}
+
+
+
+
